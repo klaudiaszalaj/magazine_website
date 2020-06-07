@@ -1,0 +1,803 @@
+/*
+font-family: 'DM Mono', monospace;
+font-family: 'Abril Fatface', cursive;
+*/
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Mono', monospace;
+}
+
+/* komponent Start */
+
+#start-text {
+    padding-left: 0;
+
+}
+
+#start-text p {
+    font-size: 11px;
+}
+
+#logo {
+    padding-right: 0;
+    margin-right: -100px;
+}
+
+#logo img {
+    padding: 0;
+    margin: 0;
+}
+
+#media {
+    font-size: 30px;
+}
+
+.start-media {
+    padding: 10px;
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+.start-media:hover {
+    margin-bottom: 20px;
+    transition: 0.5s;
+    color: black;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+#toggler {
+    color: blueviolet;
+    font-size: 50px;
+}
+
+/* komponent MyNavbar */
+
+nav {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#links a {
+    color: black;
+}
+
+#links a:hover {
+    color: blueviolet;
+}
+
+#links-right a {
+    color: black;
+    padding-right: 0;
+}
+
+#links-right h4 {
+    padding: 5px;
+}
+
+#links-right a:hover {
+    color: blueviolet;
+}
+
+
+
+/* komponent MainArticle */
+
+#main-article {
+    width: 100%;
+    height: 500px;
+    background-image: url(photos/photo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#main-article h1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 80px;
+    background-color: black;
+    width: 50%;
+    cursor: pointer;
+}
+
+#main-article p {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#main-article a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-article a:hover {
+    text-decoration:line-through;
+}
+
+/* komponent Author */
+
+#author {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#author-container {
+    display: inline-block;
+    border: 2px solid black;
+    background-color: white;
+    width: 600px;
+    height: 300px;
+}
+
+#photo-container {
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    height: 296px;
+}
+
+#author-photo {
+    width: 100%;
+    height: 100%;
+    background-image:url(photos/author-image.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.7s;
+    cursor: pointer;
+}
+
+
+#author-photo:hover {
+    max-width: 100%;
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+#author-text {
+    width: 50%;
+    color: black;
+    float: left;
+    padding: 20px;
+    text-align: left;
+}
+
+#author-button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+#author-button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* strona AuthorPage */
+
+#author-page {
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid black;
+}
+
+#author-page-image {
+    background-image: url(photos/author-image.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+
+#author-page-text {
+    padding: 50px;
+    height: 70%;
+    background-color: white;
+    width: 50%;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+#author-page-media {
+    text-align: center;
+    font-size: 50px;
+    border-top: 2px solid black;
+}
+
+#author-page-media i {
+    padding: 20px;
+}
+
+#author-form {
+    background-color: #101010;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+#form {
+    display: inline-block;
+}
+
+#form textarea {
+    height: 100px;
+}
+
+#form button {
+    border: 2px solid white;
+    background-color: #101010;
+    color: white;
+}
+
+#form button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* komponent Newsletter */
+
+#news-container {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: #101010;
+    padding: 50px;
+    color: white;
+}
+
+#news-input {
+    width: 300px;
+    border: none;
+    background-color: #101010;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#news-button {
+    border: 2px solid white;
+    background-color: #101010;
+    color: white;
+}
+
+#news-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* strona Meetings */
+
+#meeting-image {
+    background-image: url(photos/meetings.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+#meeting-text {
+    background-color: #010101;
+    color: white;
+    height: 400px;
+    padding: 30px;
+}
+
+#meeting-button {
+    background-color: black;
+    border: 2px solid white;
+    padding: 8px;
+}
+
+#meeting-button a {
+    color: white;
+    text-decoration: none;
+}
+
+#meeting-button a:hover {
+    text-decoration: line-through;
+}
+#countdown-container {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#countdown {
+    height: 200px;
+    padding: 70px;
+}
+
+#countdown h1 {
+    font-family: 'DM Mono', monospace;
+    display: inline;
+    padding: 20px;
+    margin: 5px;
+    font-size: 50px;
+}
+
+
+#countdown span {
+    font-size: 50px;
+}
+
+#timer {
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 600px;
+    display: inline-block;
+}
+
+#meeting-icons-con {
+    text-align: center;
+    background-color: black;
+}
+
+.meeting-icons {
+    display: inline-block;
+    width: 400px;
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    cursor: default;
+}
+
+.meeting-icons i {
+    width: auto;
+    font-size: 50px;
+    color: white;
+
+}
+
+
+.meeting-icons h4 {
+    font-family: 'Abril Fatface', cursive;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+/* komponent Article */
+
+#article-containers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#article-container {
+    float: left;
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+}
+
+#article-photo {
+    height: 50%;
+    background-size: cover;
+}
+
+#article-text{
+    height: 50%;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#article-p {
+    height: 70%;
+}
+
+#article-button{
+    margin-top: 10px;
+    height: 30%;
+}
+
+#seemore {
+    border: 1px solid black;
+}
+
+#seemore:hover {
+    background-color: blueviolet;
+}
+
+#seemore a {
+    text-decoration: none;
+    color: black;
+}
+
+#seemore a:hover {
+    color: white;
+}
+
+
+#article-share {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#article-heart {
+    color: white;
+    cursor: pointer;
+}
+
+/* strona Login */
+
+#login-container {
+    text-align: center;
+    background-color: black;
+}
+
+#form-container {
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#form-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form-container button:hover {
+    background-color: #010101;
+    color: white;
+}
+
+#form-button {
+    padding: 15px;
+}
+
+#form-button button {
+    background-color: white;
+    color: #010101;
+    border: 2px solid black;
+    font-size: 20px;
+    height: 50px;
+}
+
+#not-a-member p {
+    margin:0;
+    padding:0;
+}
+
+#not-a-member a {
+    color: black;
+    text-decoration: none;
+}
+
+#not-a-member a:hover {
+    color: blueviolet;
+}
+
+#not-a-member h5 {
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+/* strona Register */
+
+#signup-button {
+    background-color: white;
+    color: #010101;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+/* komponent Articles */
+
+#articles-title {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+h3{
+    font-family: 'Abril Fatface', cursive;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+/* komponent Footer */
+
+footer {
+    padding: 20px;
+    background-color: #010101;
+    color: white;
+    border-top: 1px solid white;
+}
+
+#footer-credits {
+    float: left;   
+    padding-top: 15px;
+    width: 50%;
+}
+
+#footer-credits p {
+    padding:0;
+    margin: 0;
+}
+
+#footer-logo {
+    display: flex;
+    justify-content:flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer-logo i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+#unsplash-link {
+    text-decoration: none;
+    color: white;
+}
+
+/* strona ArticlePage */
+
+#articlepage-con #image-container {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#article-page-text {
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+
+#article-page-p {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+}
+
+#article-page-text a {
+    color: white;
+    text-decoration: none;
+}
+
+#article-page-text a:hover {
+    color: blueviolet;
+}
+
+#article-page-media {
+    font-size: 30px;
+}
+
+#article-page-media i {
+    padding: 5px;
+}
+
+
+/* komponent Modal */
+
+#modal {
+    position: relative;
+    display: flex;
+}
+
+#modal-container {
+    max-height: 300px;
+    width: 300px;
+    max-width: 300px;
+    margin: 0;
+    padding: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#modal-container button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+#modal-container button:hover {
+    background-color: blueviolet;  
+}
+
+/* obrazy z Article.jsx */
+
+.article0 {
+    background-image: url(photos/photo1.jpg);
+}
+
+.article1 { 
+    background-image: url(photos/photo4.jpg);
+}
+
+.article2 { 
+    background-image: url(photos/photo5.jpg);
+}
+
+.article3 { 
+    background-image: url(photos/photo6.jpg);
+}
+
+.article4 { 
+    background-image: url(photos/photo7.jpg);
+}
+
+.article5 { 
+    background-image: url(photos/photo8.jpg);
+}
+
+.article6 { 
+    background-image: url(photos/photo9.jpg);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #author-container {
+        width: 100%;
+    }
+
+    #author-p {
+        font-size: 11px;
+    }
+
+    #author-button {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    #article-containers {
+        width: 100%;
+    }
+
+    #article-container {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+
+    #news-container {
+        width: 100%;
+    }
+
+    #main-article h1 {
+        width: 100%;
+    }
+
+    nav {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navbar-nav {
+        margin-top: 50px;
+        font-size: 30px;
+        text-align: right;
+    }
+
+
+    #author-page-text {
+        width: 100%;
+    }
+
+
+    #form-container {
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    #article-page-p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #meeting-text {
+        height: auto;
+    }
+
+    .meeting-icons {
+        width: auto;
+    }
+
+    #countdown-container {
+        padding-top: 50px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        width: 100%;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    #countdown {
+        height: auto;
+        background-color: white;
+        color: black;
+        padding: 20px;
+
+    }
+
+    #timer {
+        background-color: black;
+        color: white;
+        border: none;
+        width: auto;
+        padding: 5px;
+        border: 2px solid black;
+    }
+
+    #timer span {
+        font-size: 20px;
+    }
+
+    #timer h1 {
+        font-size: 20px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    #footer-credits {
+        padding:0;
+    }
+
+    #footer-logo {
+        display: grid;
+        padding: 0;
+        text-align: center;
+    }
+
+    #footer-logo i {
+        font-size: 30px;
+        padding: 5px;
+    }
+}
