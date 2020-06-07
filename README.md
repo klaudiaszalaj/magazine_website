@@ -1,7 +1,7 @@
 # Magazine LAF website - React.js 
 Responsive website created with React.js, Bootstrap and other libraries.
 <br>
-See [DEMO.](https://klaudiaszalaj.github.io/#/LAF_website)
+See [DEMO.](https://klaudiaszalaj.github.io/LAF_website/#/)
 <br>
 <br>
 *Currently working on backend to this application*
