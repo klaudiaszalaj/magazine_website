@@ -11,9 +11,9 @@ See [DEMO.](https://klaudiaszalaj.github.io/LAF_website/#/)
 
 
 ## Features:
-- responsivity created with Bootstrap 4 and RWD
+- responsivity created with Bootstrap and RWD
 - multipages website created with 'react-router'
-- countdown timer application inside
+- countdown timer application 
 - login/sign up form with validation
 
 ## Future features:
@@ -24,11 +24,11 @@ See [DEMO.](https://klaudiaszalaj.github.io/LAF_website/#/)
 ## Technologies:
 This project was created with:
 
-- React.js
-- Bootstrap 4
-- Components from react-bootstrap
-- Joi library for validating form
-- lodash
+- React.js v.16.13.1
+- React Bootstrap v.1.0.1
+- React Router v.5.2.0
+- JQuery v.3.5.1
+- Joi Browser v.13.4.0
 
 ## Setup
 To run this project, install it locally using npm:
