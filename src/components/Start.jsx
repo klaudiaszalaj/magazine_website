@@ -5,7 +5,7 @@ import LOGOLAFB from '../photos/LOGOLAFB.png'
 const Start = () => {
 
     return(
-        <nav className="navbar navbar-expand-lg navbar-light bg-light " id="nav-start">
+        <nav className="navbar navbar-expand-lg" id="nav-start">
             <div className="d-none d-md-block"id="logo">
                 <Link to="/"><img src={LOGOLAFB} alt="" width="50%" /></Link>
             </div>
