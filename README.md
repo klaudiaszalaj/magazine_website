@@ -7,7 +7,7 @@ See [DEMO.](https://klaudiaszalaj.github.io/LAF_website/#/)
 *Currently working on backend to this application*
 
 
-<a href="https://ibb.co/nDZHtmB"><img src="https://i.ibb.co/jLBcsfz/LAFwebsite.png" alt="LAFwebsite" border="0"></a>
+<a href="https://ibb.co/WBRPPPm"><img src="https://i.ibb.co/dkHLLL8/laf-magazine-png.png" alt="laf-magazine-png" border="0"></a>
 
 
 ## Features:
