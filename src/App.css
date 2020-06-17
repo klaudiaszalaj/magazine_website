@@ -255,7 +255,7 @@ nav {
     text-align: center;
     height: auto;
     width: 100%;
-    background-color: #101010;
+    background-color: black;
     padding: 50px;
     color: white;
 }
@@ -263,7 +263,7 @@ nav {
 #news-input {
     width: 300px;
     border: none;
-    background-color: #101010;
+    background-color: black;
     border-bottom: 2px solid white;
     margin-bottom: 20px;
     font-size: 20px;
@@ -272,7 +272,7 @@ nav {
 
 #news-button {
     border: 2px solid white;
-    background-color: #101010;
+    background-color: black;
     color: white;
 }
 
@@ -408,7 +408,7 @@ nav {
 }
 
 #seemore {
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 #seemore:hover {
